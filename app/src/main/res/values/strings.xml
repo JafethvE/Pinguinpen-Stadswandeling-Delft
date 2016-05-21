@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PinguinPen Delftwandeling</string>
+    <string name="welcome">Welkom bij deze historische wandeling door Delft</string>
+    <string name="start">Start de wandeling</string>
+    <string name="previous">Vorige</string>
+    <string name="stop">Stop</string>
+    <string name="next">Volgende</string>
+    <string name="zuidwal" translatable="false">Zuidwal</string>
+    <string name="zuidwal_description">We starten onze wandeling op de Zuidwal. Het water hier heet de Zuidkolk, en vanaf het water van de Zuidkolk heb je ongeveer het beeld van de stad zoals dat in 1661 werd vastgelegd door de beroemde schilder Johannes Vermeer (1632-1675), dat in het Mauritshuis in Den Haag hangt. Schuin achter ons, tussen de Schie en de Rotterdamse weg, is waarschijnlijk de geboortegrond van Delft. Delft is begonnen als een \'hof\', een boerenbedrijf dat eigendom was van de graaf van Holland. Deze \'Hof van Delft\' is in de eerste helft van de elfde eeuw ontstaan. Het is niet zo dat hiermee de bewoning van dit gebied pas begon. In en rond Delft zijn sporen teruggevonden die dateren uit de Romeinse tijd en deels teruggaan tot de prehistorie.  Zoals de naam Zuidwal al aangeeft lag hier vroeger de zuidelijke stadswal van Delft. Ongeveer hier lagen maar liefst twee poorten: de Schiedamse Poort en de Rotterdamse Poort. Beide in de jaren \'30 van de negentiende eeuw gesloopt, net als alle andere poorten van de stad, behalve de Oostpoort. De Zuidkolk was in vroeger tijd de haven van Delft. Of misschien beter gezegd: de binnenvaarthaven van Delft, want Delft was via de Zuidkolk en de Delftse Schie verbonden met haar eigen zeehaven: Delfshaven. De plaats ontstond vanaf 1404 rondom de Schie en de schutsluis met de Maas. De haven was belangrijk voor de visserij en de handelsvaart en Delft bouwde er ook haar eigen VOC schepen: in totaal 1100 stuks. Delfshaven is in de 19e eeuw korte tijd zelfstandig geweest totdat zij in 1886 werd opgeslokt door Rotterdam.</string>
+    <string name="text">Tekst</string>
+    <string name="text_size">Tekstgrootte</string>
+    <string name="text_size_flavour">Kies de grootte van de tekst</string>
+    <string name="small">Klein</string>
+    <string name="medium">Medium</string>
+    <string name="large">Groot</string>
+    <string name="xlarge">Heel groot</string>
+</resources>
