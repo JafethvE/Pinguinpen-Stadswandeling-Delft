@@ -29,14 +29,7 @@ public class BuildingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //if(hasImage())
-        //{
-            setContentView(R.layout.activity_building_with_image);
-        //}
-        //else
-        //{
-        //    setContentView(R.layout.activity_building_without_image);
-        //}
+        setContentView(R.layout.activity_building_with_image);
         setUiElements();
         getBuildingInformation(MainActivity.getBuildingId());
     }
@@ -97,12 +90,21 @@ public class BuildingActivity extends AppCompatActivity {
                 buildingDescriptionTextView.setText(R.string.st_hippolytuskapel_description);
                 scrollView.scrollTo(0,0);
                 break;
+            case 13: buildingNameTextView.setText(R.string.oude_jan);
+                buildingDescriptionTextView.setText(R.string.oude_jan_description);
+                scrollView.scrollTo(0,0);
+                break;
+            case 14: buildingNameTextView.setText(R.string.twee_deuren);
+                buildingDescriptionTextView.setText(R.string.twee_deuren_description);
+                imageView.setImageResource(0);
+                scrollView.scrollTo(0,0);
+                break;
+            case 15: buildingNameTextView.setText(R.string.hyronimuspoort);
+                buildingDescriptionTextView.setText(R.string.hyronimuspoort_description);
+                scrollView.scrollTo(0,0);
+                imageView.setImageResource(R.drawable.hieronymuspoort);
+                break;
         }
-    }
-
-    private boolean hasImage()
-    {
-        return false;
     }
 
     private void next() {
