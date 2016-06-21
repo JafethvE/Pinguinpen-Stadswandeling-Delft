@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView welcomeTextView;
     private Button startButton;
-    private static int textSize;
+    private static int textSize, buildingId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setUiElements();
         PreferenceManager.setDefaultValues(this, R.xml.fragment_preference, false);
+        buildingId = 1;
     }
 
     private void setUiElements()
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startTour()
     {
-        Intent i = new Intent(MainActivity.this, ZuidwalActivity.class);
+        Intent i = new Intent(MainActivity.this, BuildingActivity.class);
         startActivity(i);
     }
 
@@ -88,5 +89,25 @@ public class MainActivity extends AppCompatActivity {
     public static int getTextSize()
     {
         return textSize;
+    }
+
+    private static void setBuildingId(int newBuildingId)
+    {
+        buildingId = newBuildingId;
+    }
+
+    public static int getBuildingId()
+    {
+        return buildingId;
+    }
+
+    public static void nextBuilding()
+    {
+        buildingId++;
+    }
+
+    public static void previousBuilding()
+    {
+        buildingId--;
     }
 }
