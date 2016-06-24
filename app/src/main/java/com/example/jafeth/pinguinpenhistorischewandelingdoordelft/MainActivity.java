@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setUiElements();
         PreferenceManager.setDefaultValues(this, R.xml.fragment_preference, false);
-        buildingId = 1;
     }
 
     private void setUiElements()
@@ -89,25 +88,5 @@ public class MainActivity extends AppCompatActivity {
     public static int getTextSize()
     {
         return textSize;
-    }
-
-    private static void setBuildingId(int newBuildingId)
-    {
-        buildingId = newBuildingId;
-    }
-
-    public static int getBuildingId()
-    {
-        return buildingId;
-    }
-
-    public static void nextBuilding()
-    {
-        buildingId++;
-    }
-
-    public static void previousBuilding()
-    {
-        buildingId--;
     }
 }

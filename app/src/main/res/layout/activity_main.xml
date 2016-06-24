@@ -10,13 +10,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/welcome"
         android:id="@+id/welcomeTextView"
-        android:layout_weight="0.98"
+        android:layout_weight="0.05"
         android:textAlignment="center"
         android:textSize="40dp" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:id="@+id/image"
+        android:src="@drawable/coat_of_arms_of_delft" />
+
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="86dp"
+        android:layout_height="wrap_content"
         android:text="@string/start"
         android:id="@+id/startButton"
         android:layout_gravity="center_horizontal" />
