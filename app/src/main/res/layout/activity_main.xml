@@ -4,26 +4,42 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <android.support.percent.PercentRelativeLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/welcome"
         android:id="@+id/welcomeTextView"
-        android:layout_weight="0.05"
         android:textAlignment="center"
-        android:textSize="40dp" />
+        android:textSize="34sp"
+        app:layout_heightPercent="35%" />
+
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="306dp"
-        android:id="@+id/image"
-        android:src="@drawable/coat_of_arms_of_delft" />
-
-    <Button
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:id="@+id/startButton"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/image"
+        android:layout_below="@+id/welcomeTextView"
+        android:src="@drawable/coat_of_arms_of_delft"
+        app:layout_heightPercent="50%" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/startButton"
+            android:layout_gravity="center_horizontal"
+            app:layout_heightPercent="15%"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"  />
+
+    </android.support.percent.PercentRelativeLayout>
+
+
 </LinearLayout>
