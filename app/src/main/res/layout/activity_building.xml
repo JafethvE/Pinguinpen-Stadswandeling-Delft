@@ -3,6 +3,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
+    android:id="@+id/container"
+
     android:visibility="visible">
 
     <TextView
@@ -32,6 +34,13 @@
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             app:layout_heightPercent="35%"/>
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:contentDescription="@string/description_zoom_touch_close" />
 
         <ScrollView
             android:id="@+id/scrollView"

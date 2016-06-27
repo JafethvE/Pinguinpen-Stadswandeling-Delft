@@ -99,4 +99,5 @@
     <string name="literature_description">M. Gout en M.A. Verschuyl, <i>Nieuwe Kerk Delft en Grafmonument van Willem van Oranje</i> (Delft 1989)\nHistorische Vereniging Delfia Batavorum, <i>Canon van Delft</i> (Delft 2013)\nP.C.J. Van der Krogt, <i>Geschiedenis en verklaring van de straatnamen in Delft</i> (Den Haag 1985)\nLex de Vroedt, <i>Wandeling door Oud Delft</i> (Delft 1979)\nKees van der Wiel, <i>Van oude mensen en de dingen die voorbij gingen</i> (Delft 2000)\nWikipedia (nl.wikipedia.org)</string>
     <string name="credits">Credits</string>
     <string name="credits_description">Geschreven door:\nEsdor van Elten\nEsdor@pinguinpen.nl\n0647595568\nwww.pinguinpen.nl\n\nApp gemaakt door:\nJafeth van Elten\nJafeth.vanElten@hotmail.com\n0644730597</string>
+    <string name="description_zoom_touch_close">Imageview for zoomed image</string>
 </resources>
